@@ -1,0 +1,52 @@
+------------------------------------------------------------------------------------------------
+1. git --version
+check your git version installed
+
+------------------------------------------------------------------------------------------------
+2. git init
+used to create a new GIT repository in your current directory/specified folder
+
+------------------------------------------------------------------------------------------------
+3. git config --global user.name
+   git config --global user.email
+used to set configuration options for GIT that apply to all repositories of current user
+
+------------------------------------------------------------------------------------------------
+4. git clone [url]
+retrieve an entire repository from a hosted location via URL
+
+------------------------------------------------------------------------------------------------
+5. git status
+shows modified files in working directory staged for next commit
+
+------------------------------------------------------------------------------------------------
+6. git add [file]
+moves new/changed files from working directory to the staging area, preparing them for next commit
+   git add file.txt	# stages only file.txt
+   git add .		# stages all new modified files
+   git add folder/	# stages all files in folder
+
+------------------------------------------------------------------------------------------------
+7. git commit -m "[descriptive msg]"
+commit your staged content as new commit
+
+------------------------------------------------------------------------------------------------
+8. git branch
+list all your branches
+* will appear next to the currently active branch
+
+------------------------------------------------------------------------------------------------
+9. git branch -M main
+Renames master to main
+
+------------------------------------------------------------------------------------------------
+10. git remote add origin
+used to add a new remote repository to your local GIT project & name that remote as 'origin'
+
+------------------------------------------------------------------------------------------------
+11. git remote -v
+used to display the list of remote repositories associated with your local GIT repository along with their URLs
+
+------------------------------------------------------------------------------------------------
+12. git push origin main
+used to upload your local branch named 'main' to the remote repository 'origin'
