@@ -50,3 +50,21 @@ used to display the list of remote repositories associated with your local GIT r
 ------------------------------------------------------------------------------------------------
 12. git push origin main
 used to upload your local branch named 'main' to the remote repository 'origin'
+
+------------------------------------------------------------------------------------------------
+13. git restore --staged [file]
+unstage changes from staging area[removed from staging area but changes remain in your local file
+
+------------------------------------------------------------------------------------------------
+14. git reset [file]
+unstage a file while retaining changes in working directory
+
+------------------------------------------------------------------------------------------------
+15. git diff
+diff of what is changed but not staged
+
+------------------------------------------------------------------------------------------------
+16. git diff --staged
+diff of what is staged but not yet committed
+
+------------------------------------------------------------------------------------------------
